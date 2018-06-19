@@ -1,0 +1,54 @@
+/*
+Theme Name: theme ifiag
+Author: nahri ayoub
+Description: Notre premier thème WordPress ifiag !
+*/
+
+html,body{
+	min-height: 100%;
+	position: relative;
+	height: 100%;
+}
+.jumbotron{
+
+	background-image: url("image/ifiag.jpg");
+}
+h1{
+	color: red;
+}
+#sidebar{
+	width: 25%;
+	float: right;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+.footer{
+height: 50px;
+position: absolute;
+bottom: 0;
+width: 1000px;
+margin: 0;
+background-color: black;
+color: azure;
+}
